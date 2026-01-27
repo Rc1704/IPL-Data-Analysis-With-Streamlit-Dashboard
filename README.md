@@ -45,79 +45,80 @@ IPL-Data-Analysis-With-Streamlit-Dashboard/
 ├── app.py
 ├── requirements.txt
 └── README.md
-```text
+ ```
 
-Dashboard Pages Overview
+
+## Dashboard Pages Overview
 
 0. Data Validation
 
-Dataset loading checks
-Column verification
-Ensures clean pipeline execution
+i. Dataset loading checks
+ii. Column verification
+iii. Ensures clean pipeline execution
 
 1️. IPL Trends
 
-Matches per season
-Average runs & scoring evolution
-League-wide growth patterns
+i. Matches per season
+ii. Average runs & scoring evolution
+iii. League-wide growth patterns
 
 2️. Team Dominance
 
-Wins by team
-Seasonal dominance patterns
-Long-term consistency comparison
+i. Wins by team
+ii. Seasonal dominance patterns
+iii. Long-term consistency comparison
 
 3️. Toss Impact Analysis
 
-Toss win vs match win
-Batting first vs chasing success
-Toss impact across seasons
+i. Toss win vs match win
+ii. Batting first vs chasing success
+iii. Toss impact across seasons
 
 4️. Venue Analysis
 
-Average first-innings scores
-Venue-wise chasing success
-Matches played per venue
-Venue-team dominance patterns
+i. Average first-innings scores
+ii. Venue-wise chasing success
+iii. Matches played per venue
+iv. Venue-team dominance patterns
 
 5️. Phase-wise Match Analysis
 
-Powerplay, Middle, Death overs breakdown
-Runs and wickets by phase
-Phase dominance in winning matches
+i. Powerplay, Middle, Death overs breakdown
+ii. Runs and wickets by phase
+iii. Phase dominance in winning matches
 
 6️. Batting Analysis
 
-Top batters by total runs
-Most explosive batters (strike rate focus)
-Phase-wise batting contribution
+i. Top batters by total runs
+ii. Most explosive batters (strike rate focus)
+iii. Phase-wise batting contribution
 
 7️. Bowling Analysis
 
-Top wicket-taking bowlers
-Most economical bowlers
-Death-over specialists
+i. Top wicket-taking bowlers
+ii. Most economical bowlers
+iii. Death-over specialists
 
 8️. Player Deep-Dive Analysis
 
-Batters (Legendary Indian Players):
+a. Batters (Legendary Indian Players):
 
-Runs per season (longevity & peaks)
-Phase-wise batting roles
+i. Runs per season (longevity & peaks)
+ii. Phase-wise batting roles
 
-Bowlers (Legendary Indian Players):
+b. Bowlers (Legendary Indian Players):
 
-Wickets per season
-Phase-wise bowling impact
+i. Wickets per season
+ii. Phase-wise bowling impact
 
 9️. Final Insights & Conclusion
 
-Key findings summary
-Strategic interpretations
-Future scope & extensions
+i. Key findings summary
+ii. Strategic interpretations
+iii. Future scope & extensions
 
 
-Key Insights
+## Key Insights
 
 1. The IPL has evolved strategically, not just explosively
 2. Middle overs play a decisive role in match outcomes
@@ -126,15 +127,15 @@ Key Insights
 5. Legendary players stand out through consistency and adaptability, not just peak seasons
 
 
-Tech Stack
+## Tech Stack
 
-Python
-Pandas, NumPy
-Matplotlib, Seaborn
-Streamlit 
+1. Python
+2. Pandas, NumPy
+3. Matplotlib, Seaborn
+4. Streamlit 
 
 
-How to Run the Project Locally
+## How to Run the Project Locally
 
 1️. Clone the Repository
 
@@ -152,7 +153,7 @@ streamlit run app.py
 The dashboard will open automatically in browser.
 
 
-Deployment Notes
+## Deployment Notes
 
 1. The app is Streamlit Cloud compatible
 2. All file paths are relative
@@ -160,7 +161,7 @@ Deployment Notes
 4. Graceful error handling included for missing data
 
 
-Future Enhancements
+## Future Enhancements
 
 1. Match outcome prediction using ML
 2. Player performance forecasting
@@ -168,13 +169,13 @@ Future Enhancements
 4. Head-to-head matchup analytics
 
 
-Author
+## Author
 
 Ram
-IPL Data Analytics Project
-Built for applied analytics demonstration
+1. IPL Data Analytics Project
+2. Built for applied analytics demonstration
 
 
-Final Note
+## Final Note
 
 This project is designed to tell the story of IPL through data from league evolution to individual brilliance while maintaining analytical rigor and visual clarity.

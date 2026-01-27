@@ -45,9 +45,9 @@ IPL-Data-Analysis-With-Streamlit-Dashboard/
 ├── app.py
 ├── requirements.txt
 └── README.md
+```text
 
-
-## Dashboard Pages Overview
+Dashboard Pages Overview
 
 0. Data Validation
 
@@ -117,7 +117,7 @@ Strategic interpretations
 Future scope & extensions
 
 
-## Key Insights
+Key Insights
 
 1. The IPL has evolved strategically, not just explosively
 2. Middle overs play a decisive role in match outcomes
@@ -126,7 +126,7 @@ Future scope & extensions
 5. Legendary players stand out through consistency and adaptability, not just peak seasons
 
 
-## Tech Stack
+Tech Stack
 
 Python
 Pandas, NumPy
@@ -134,7 +134,7 @@ Matplotlib, Seaborn
 Streamlit 
 
 
-## How to Run the Project Locally
+How to Run the Project Locally
 
 1️. Clone the Repository
 
@@ -152,7 +152,7 @@ streamlit run app.py
 The dashboard will open automatically in browser.
 
 
-## Deployment Notes
+Deployment Notes
 
 1. The app is Streamlit Cloud compatible
 2. All file paths are relative
@@ -160,7 +160,7 @@ The dashboard will open automatically in browser.
 4. Graceful error handling included for missing data
 
 
-## Future Enhancements
+Future Enhancements
 
 1. Match outcome prediction using ML
 2. Player performance forecasting
@@ -168,13 +168,13 @@ The dashboard will open automatically in browser.
 4. Head-to-head matchup analytics
 
 
-## Author
+Author
 
 Ram
 IPL Data Analytics Project
 Built for applied analytics demonstration
 
 
-## Final Note
+Final Note
 
 This project is designed to tell the story of IPL through data from league evolution to individual brilliance while maintaining analytical rigor and visual clarity.

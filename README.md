@@ -5,6 +5,11 @@ An end-to-end exploratory data analysis (EDA) dashboard built using Python, Pand
 This project transforms raw IPL data into a structured, interactive analytics experience — suitable for academic evaluation, portfolio review, and real-world analytics demonstrations.
 
 
+## Live Dashboard
+
+**Streamlit App:** (https://ipl-data-analysis-with-app-dashboard-newh2ds8ljlrvfzbh2utct.streamlit.app/)
+
+
 ## Project Objectives
 
 1. Analyze macro trends in the IPL over time

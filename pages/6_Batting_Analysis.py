@@ -3,9 +3,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-# -----------------------------
-# Page Config
-# -----------------------------
 st.set_page_config(page_title="Batting Analysis", layout="wide")
 st.title("Batting Analysis (Top Batters & Roles)")
 
@@ -16,18 +13,12 @@ This section explores **individual batting excellence** in the IPL:
 - Phase-wise contribution across match situations
 """)
 
-# -----------------------------
-# Load Data
-# -----------------------------
 @st.cache_data
 def load_ball_data():
     return pd.read_csv("data/clean_ball_by_ball.csv")
 
 df = load_ball_data()
 
-# -----------------------------
-# Phase Mapping
-# -----------------------------
 def assign_phase(over):
     if over <= 6:
         return "Powerplay"
@@ -38,9 +29,6 @@ def assign_phase(over):
 
 df["phase"] = df["ball_no"].apply(assign_phase)
 
-# -----------------------------
-# SECTION 1: Top Batters by Total Runs
-# -----------------------------
 st.subheader("Top Batters By Total Runs")
 
 batter_runs = (
@@ -64,7 +52,6 @@ ax1.set_xlabel("Total Runs")
 ax1.set_title("Top Batters(All Seasons)")
 ax1.grid(axis="x", linestyle="--", alpha=0.6)
 
-# Value labels
 for bar in bars:
     width = bar.get_width()
     ax1.text(
@@ -78,9 +65,6 @@ for bar in bars:
 plt.tight_layout()
 st.pyplot(fig1)
 
-# -----------------------------
-# SECTION 2: Most Explosive Batters (Strike Rate)
-# -----------------------------
 st.subheader("Explosive Batters (Strike Rate Focus)")
 
 balls_faced = df.groupby("striker").size()
@@ -113,7 +97,6 @@ ax2.set_xlabel("Strike Rate")
 ax2.set_title("Most Explosive Batters (Min 300 Balls Faced)")
 ax2.grid(axis="x", linestyle="--", alpha=0.6)
 
-# Value labels
 for bar in bars:
     width = bar.get_width()
     ax2.text(
@@ -127,9 +110,6 @@ for bar in bars:
 plt.tight_layout()
 st.pyplot(fig2)
 
-# -----------------------------
-# SECTION 3: Phase-wise Batting Contribution
-# -----------------------------
 st.subheader("Phase-wise Batting Contribution (Top Batters)")
 
 top_batters = batter_runs.head(10).index
@@ -161,9 +141,6 @@ ax3.grid(axis="y", linestyle="--", alpha=0.6)
 plt.tight_layout()
 st.pyplot(fig3)
 
-# -----------------------------
-# Key Insights (Plain Text – No Box)
-# -----------------------------
 st.subheader("Key Insights")
 
 st.markdown("""

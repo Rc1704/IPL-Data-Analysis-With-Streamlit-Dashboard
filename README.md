@@ -56,70 +56,89 @@ IPL-Data-Analysis-With-Streamlit-Dashboard/
 
 0. Data Validation
 
-Dataset loading checks
-Column verification
-Ensures clean pipeline execution
+   i. Dataset loading checks
+
+   ii. Column verification
+
+   iii. Ensures clean pipeline execution
 
 1. IPL Trends
+   
+   i. Matches per season
 
-1. Matches per season
-2. Average runs & scoring evolution
-3. League-wide growth patterns
+   ii. Average runs & scoring evolution
+
+   iii. League-wide growth patterns
 
 2. Team Dominance
 
-1. Wins by team
-2. Seasonal dominance patterns
-3. Long-term consistency comparison
+   i. Wins by team
+
+   ii. Seasonal dominance patterns
+
+   iii. Long-term consistency comparison
 
 3. Toss Impact Analysis
 
-1. Toss win vs match win
-2. Batting first vs chasing success
-3. Toss impact across seasons
+   i. Toss win vs match win
+   
+   ii. Batting first vs chasing success
+   
+   iii. Toss impact across seasons
 
 4. Venue Analysis
 
-1. Average first-innings scores
-2. Venue-wise chasing success
-3. Matches played per venue
-4. Venue-team dominance patterns
+   i. Average first-innings scores
+   
+   ii. Venue-wise chasing success
+   
+   iii.Matches played per venue
+   
+   iv. Venue-team dominance patterns
 
-5. Phase-wise Match Analysis
+6. Phase-wise Match Analysis
 
-1. Powerplay, Middle, Death overs breakdown
-2. Runs and wickets by phase
-3. Phase dominance in winning matches
+   i. Powerplay, Middle, Death overs breakdown
+   
+   ii. Runs and wickets by phase
+   
+   iii. Phase dominance in winning matches
 
-6. Batting Analysis
+7. Batting Analysis
 
-1. Top batters by total runs
-2. Most explosive batters (strike rate focus)
-3. Phase-wise batting contribution
+   i. Top batters by total runs
+   
+   ii. Most explosive batters (strike rate focus)
+   
+   iii. Phase-wise batting contribution
 
-7. Bowling Analysis
+8. Bowling Analysis
 
-1. Top wicket-taking bowlers
-2. Most economical bowlers
-3. Death-over specialists
+   i. Top wicket-taking bowlers
+   
+   ii. Most economical bowlers
+   
+   iii. Death-over specialists
 
-8. Player Deep-Dive Analysis
+9. Player Deep-Dive Analysis
 
-A. Batters (Legendary Indian Players):
+   A. Batters (Legendary Indian Players):
 
-1. Runs per season (longevity & peaks)
-2. Phase-wise batting roles
+   1. Runs per season (longevity & peaks)
+   2. Phase-wise batting roles
 
-B. Bowlers (Legendary Indian Players):
+   B. Bowlers (Legendary Indian Players):
 
-1. Wickets per season
-2. Phase-wise bowling impact
+   1. Wickets per season
+   2. Phase-wise bowling impact
 
 9. Final Insights & Conclusion
 
-1. Key findings summary
-2. Strategic interpretations
-3. Future scope & extensions
+   i. Key findings summary
+   
+   ii. Strategic interpretations
+   
+   iii. Future scope & extensions
 
 
 ## Key Insights
